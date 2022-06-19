@@ -1,2 +1,3 @@
-car=com.fastcampus.ch3.dicpy1.sportsCar
-engine=com.fastcampus.ch3.dicpy1.Engine
+car=com.fastcampus.ch3.dicpy3.Truck
+engine=com.fastcampus.ch3.dicpy3.Engine
+door=com.fastcampus.ch3.dicpy3.Door
