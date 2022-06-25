@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<context:component-scan base-package="com.fastcampus.ch3">
+	<context:exclude-filter type="regex" expression="com.fastcampus.ch3.dicopy*.*"/>
+</context:component-scan>

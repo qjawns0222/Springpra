@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bean id="car" class="com.fastcampus.ch3.dicpy4.Car" scpe="prototype"/>
+<bean id="engine" class="com.fastcampus.ch3.dicpy4.Engine" >
+<!-- 	<constructor-arg name="color" value="red"/>
+	<constructor-arg name="oil" value="100"/>
+	<constructor-arg name="engine" value="engine"/>
+		<constructor-arg name="doors" >
+			<array value-type="com.fastcampus.ch3.Door">
+				<ref bean="door"/>
+				<ref bean="door"/>
+			</array>
+		</constructor-arg> -->
+	<constructor-arg name="color" value="red"/>
+	<constructor-arg name="oil" value="100"/>
+	<constructor-arg name="engine" value="engine"/>
+		<constructor-arg name="doors" >
+			<array value-type="com.fastcampus.ch3.Door">
+				<ref bean="door"/>
+				<ref bean="door"/>
+			</array>
+		</constructor-arg>
+</bean>		
+<bean id="door" class="com.fastcampus.ch3.dicpy4.Door" scpe="prototype"/>
